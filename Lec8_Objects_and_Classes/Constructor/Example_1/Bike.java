@@ -1,0 +1,10 @@
+
+package lec8_ObjectAndClass.Constructor.Example1;
+
+public class Bike {
+    Bike(){System.out.println("Bike is created");}
+    
+    public static void main(String[] args ){
+        Bike b = new Bike();
+    }
+}
